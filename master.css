@@ -1,0 +1,107 @@
+body {
+    background-color: rgba(18 18 18);
+}
+
+.page {
+    font-family: tahoma;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 90vh;
+}
+
+.game-container {
+    overflow: hidden;
+    box-shadow: 0px 0px 15px black;
+    background-color: rgba(25 25 25);
+    width: 600px;
+    border: 1px solid white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 600px;
+    position: relative;
+}
+
+input {
+    outline: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 2px;
+    color: white;
+    background-color: rgba(18 18 18);
+}
+
+#result {
+    width: 100%;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#attempts {
+    width: 100%;
+    font-size: 18px;
+    margin-top: 10px;
+    color: white;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+button {
+    margin-left: 10px;
+    padding: 10px 16px;
+    background-color: rgba(255, 255, 255, 0.15);
+    font-size: 20px;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.game {
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    box-shadow: 0px 0px 15px black;
+    background-color: rgba(25 25 25);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.go {
+    padding: 15px 30px;
+    font-size: 2em;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
